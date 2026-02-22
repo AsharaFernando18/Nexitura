@@ -1,0 +1,379 @@
+NEXITURA
+Website Development Brief
+For Developer Reference
+2026
+PROJECT OVERVIEW
+A modern, high-performance website for Nexitura — a technology and creative services company specializing in digital solutions for businesses of all sizes. The site must project confidence, technical expertise, and forward momentum, reflecting the Nexitura brand identity.
+Design Principle: Bold. Technical. Forward-Moving. Built to convert.
+Brand Essentials
+Attribute
+Specification
+Primary Color
+Deep Navy #1B2A6B
+Accent Color
+Cyan #00C8E0
+Background
+White #FFFFFF or Light Grey #F4F6FB
+Typography
+Clean sans-serif (Inter, Plus Jakarta Sans, or similar)
+Design Theme
+Tech-forward, sharp geometry, gradient accents, clean lines
+Logo Style
+Dark navy wordmark with cyan double-chevron mark
+Site Structure
+Total Pages: 6
+Home  |  About  |  Services  |  Portfolio  |  Pricing  |  Contact
+The Services page is the core feature page and should be highlighted in the navigation with the cyan accent color.
+PAGE 1: HOME
+1.1 Hero Section
+Full-viewport hero with animated geometric/tech background (subtle grid or particle effect in navy/cyan)
+Headline: "We Build the Digital Backbone of Tomorrow's Business"
+Subtext: "Web & App Development, AI Automation, Design & Strategy — under one roof."
+CTA Button: "See What We Build" (scrolls to services or links to Services page)
+Secondary CTA: "Get a Free Quote" (links to Contact)
+1.2 Quick Intro Strip
+"Nexitura is a global digital solutions studio helping companies grow through smarter systems, sharper design, and intelligent automation."
+1.3 Core Services (Icon Cards)
+Display 6 service cards in a responsive grid with icons and one-line descriptions:
+Service
+Icon Suggestion
+One-Liner
+Link To
+Website Creation
+Globe / Window
+Custom sites built to perform
+Services
+App Development
+Mobile / Code
+iOS, Android & web apps
+Services
+Social Media Mgmt
+Share / Graph
+Content that connects and converts
+Services
+Graphic Design
+Pen Tool / Star
+Brand visuals that mean business
+Services
+AI Automation
+CPU / Lightning
+Smart workflows, less manual work
+Services
+System Development
+Server / Cog
+Backend systems and integrations
+Services
+1.4 Why Nexitura (Trust Strip)
+3 short, bold trust indicators displayed horizontally:
+End-to-end delivery — strategy to launch
+Technology-first approach with human-centered design
+Local expertise, global standards
+1.5 Featured Work (Portfolio Preview)
+3–4 project thumbnails in a clean grid. Each card shows: project name, category tag, thumbnail image, and a hover effect revealing a short description. Link to full Portfolio page.
+1.6 CTA Banner
+Headline: "Ready to Build Something Powerful?"
+Button: "Start a Project" (links to Contact)
+Background: Deep navy with cyan gradient accent
+1.7 Footer
+Nexitura logo, quick navigation links, contact email, social icons (LinkedIn, GitHub, Behance), copyright notice, and tagline: "Building tomorrow, today."
+PAGE 2: ABOUT
+2.1 Hero
+Headline: "The Team Behind the Technology"
+Subtext: A brief, punchy paragraph on who Nexitura is and what drives the team
+2.2 Our Story
+3–4 paragraphs covering the origin of Nexitura, the problem the team set out to solve, and the vision going forward. Keep the tone sharp and confident — not corporate, not casual. Write like a team that knows its craft.
+2.3 What Makes Us Different
+Display 4 differentiators with icons:
+Full-Stack Capability — from front-end design to AI-powered back-end systems
+Speed Without Compromise — fast delivery that doesn't cut corners
+Transparent Process — clients always know where their project stands
+Future-Ready Solutions — built with scalability from day one
+2.4 Meet the Team (Optional)
+Simple photo grid with name, title, and LinkedIn link for each team member. Keep it minimal — avoid bios that are too long.
+PAGE 3: SERVICES
+3.1 Hero
+Headline: "What We Do"
+Subtext: "End-to-end digital solutions — designed to perform, built to last"
+3.2 Service Cards
+Display 6 expandable or detailed cards. Each card includes: service name, icon, 2–3 sentence description, and a list of deliverables.
+Service
+Description & Deliverables
+Website Creation
+Custom websites built on modern frameworks. Deliverables: Landing pages, corporate sites, e-commerce, portfolios, CMS integration.
+App Development
+Mobile and web applications from concept to launch. Deliverables: iOS apps, Android apps, Progressive Web Apps (PWA), API integration.
+Social Media Management
+Strategy, content creation, and community management. Deliverables: Content calendars, post design, caption writing, ad creatives, analytics reports.
+Graphic Design
+Visual identity and marketing materials. Deliverables: Logos, brand guides, brochures, presentation decks, social graphics, print materials.
+AI Automation
+Intelligent systems that reduce manual work and increase efficiency. Deliverables: Chatbots, workflow automation, data pipelines, AI-integrated apps.
+System Development
+Custom software and backend infrastructure. Deliverables: Databases, APIs, CRMs, ERPs, internal dashboards, third-party integrations.
+3.3 Process Overview
+Display a horizontal 4-step process flow:
+Step
+01 — Discover
+02 — Design
+03 — Build
+What Happens
+Scope, requirements, timeline
+Wireframes, UI/UX design
+Development & QA testing
+3.4 CTA
+Text: "Not sure what you need? Let's figure it out together."
+Button: "Book a Free Consultation"
+PAGE 4: PORTFOLIO
+This page builds credibility. Make it visual, fast-loading, and easy to filter.
+4.1 Hero
+Headline: "Our Work"
+Subtext: "Projects we're proud of. Results clients love."
+4.2 Filter Bar
+Category filters across the top: All | Web | Apps | Branding | Social Media | AI & Systems
+On mobile: collapse into a dropdown selector.
+4.3 Project Grid
+Masonry or uniform grid. Each project card displays:
+Project thumbnail image
+Project name
+Category tag (e.g., "Web Development")
+Hover state: short description + "View Project" button
+Click opens a modal or project detail page with full case study
+4.4 Case Study Layout (Per Project)
+Each project page/modal should include: Client name (or anonymised), Challenge, Solution, Technologies used, Result/Outcome, Screenshots or mockups.
+4.5 Bottom CTA
+Text: "Want results like these?"
+Button: "Start Your Project"
+PAGE 5: PRICING
+This is a lead generation page. Make it easy to understand and easy to act on.
+5.1 Hero
+Headline: "Transparent Pricing. No Surprises."
+Subtext: "Choose a package or get a custom quote tailored to your needs."
+5.2 Package Tiers
+Display tiered cards for common service bundles. Recommended layout: 3 tiers side-by-side.
+Starter
+Growth
+Enterprise
+Best for small businesses & startups
+Best for scaling companies
+Best for established enterprises
+From RM 2,500
+From RM 6,000
+Custom Quote
+1 core service
+3 core services
+Full-suite engagement
+2-week delivery
+4–6 week delivery
+Dedicated team & timeline
+Email support
+Priority support
+Dedicated account manager
+Note: Each card includes an 'Inquire' or 'Get Quote' CTA button. Clicking opens WhatsApp or scrolls to the contact form with the package pre-selected.
+5.3 Add-On Services
+List common add-ons with prices or price ranges:
+Add-On
+Price Range
+Extra revision rounds
+From RM 200
+Monthly maintenance retainer
+From RM 500/mo
+SEO optimization package
+From RM 800
+Social media content (monthly)
+From RM 1,200/mo
+AI chatbot integration
+From RM 1,500
+Custom API/system integration
+From RM 2,000
+5.4 FAQ (Collapsible)
+Include 4–5 common questions:
+Do you offer payment plans?
+How long does a typical project take?
+What information do I need to provide to get started?
+Do you offer post-launch support?
+Can I upgrade my package after starting?
+PAGE 6: CONTACT
+6.1 Hero
+Headline: "Let's Build Something Together"
+Subtext: "Tell us about your project and we'll get back to you within 24 hours."
+6.2 Contact Information
+Field
+Value
+Email
+hello@nexitura.com
+Phone / WhatsApp
+[To be provided]
+Location
+Worldwide (Remote-First)
+LinkedIn
+[To be provided]
+GitHub
+[To be provided]
+6.3 Contact Form
+Fields: Name*, Email*, Company (optional), Service Interested In (dropdown)*, Budget Range (dropdown), Message*, Submit button.
+Dropdown — Service options:
+Website Creation
+App Development
+Social Media Management
+Graphic Design
+AI Automation
+System Development
+Multiple Services / Not Sure
+Dropdown — Budget range options:
+Under RM 3,000
+RM 3,000 – RM 8,000
+RM 8,000 – RM 20,000
+RM 20,000+
+Let's discuss
+6.4 WhatsApp Quick Link
+Include a prominent WhatsApp button with pre-filled message: "Hi Nexitura! I'm interested in [Service]. Can we discuss a project?"
+6.5 Map (Optional)
+Embed Google Maps if a physical office exists. Skip or display a city-level marker if fully remote.
+GLOBAL ELEMENTS
+Navigation
+Logo  |  Home  |  About  |  Services  |  Portfolio  |  Pricing  |  Contact
+Sticky on scroll with background blur (glassmorphism effect)
+Clean, minimal design — no dropdown menus unless needed
+'Services' highlighted with cyan accent
+'Contact' as a filled CTA button (cyan)
+Footer
+Include on all pages:
+Nexitura logo (light version if footer is dark)
+Quick links: Home, About, Services, Portfolio, Pricing, Contact
+Email: hello@nexitura.com
+Social links: LinkedIn, GitHub, Behance
+Tagline: "Building tomorrow, today."
+© 2026 Nexitura. All rights reserved.
+DESIGN GUIDELINES
+Overall Feel
+Precise and technical — sharp lines, intentional whitespace
+Bold without being loud — confident, not aggressive
+Modern and future-oriented — reflects cutting-edge services
+Visual Elements
+Geometric shapes and grid patterns as background accents
+Cyan-to-navy gradients used sparingly on hero sections and CTAs
+Glassmorphism cards on service and pricing sections
+Subtle particle or grid animation on the homepage hero
+Icons: Outline-style, consistent stroke weight (Lucide, Phosphor, or similar)
+Typography
+Headlines: Bold, tight tracking, clean sans-serif (Inter or Plus Jakarta Sans)
+Body: Regular weight, comfortable line height (1.6–1.8)
+Code/tech elements: Monospace font for any technical labels or stack references
+Keep copy minimal — strong headlines, short supporting text
+Color Usage
+Context
+Color
+Primary backgrounds
+White #FFFFFF, Light Grey #F4F6FB
+Section accents / hero BG
+Deep Navy #1B2A6B
+CTAs / Highlights
+Cyan #00C8E0
+Body text
+Dark Charcoal #1A1A2E or #333333
+Borders / dividers
+Light Grey #CCCCCC or Cyan at 20% opacity
+Interactions
+Smooth scroll throughout
+Subtle card hover: lift + soft shadow + cyan border accent
+Buttons: Cyan fill, navy text; invert on hover
+Page transitions: Simple fade or slide-up reveal
+Counters or animated stats on About page (optional)
+Mobile Requirements
+Fully responsive — mobile-first approach
+Hamburger menu with slide-in navigation panel
+Stack all grid cards vertically
+Portfolio filter bar collapses to dropdown on mobile
+WhatsApp button fixed/floating on mobile for quick access
+What NOT To Do
+No dark-only theme • No cluttered layouts • No stock photography • No slow animations • No feature creep
+TECH RECOMMENDATIONS
+Recommended Stack
+Layer
+Recommendation
+Framework
+Next.js (React) — fast, SEO-friendly, scalable
+Styling
+Tailwind CSS — utility-first, matches design-system approach
+Animations
+Framer Motion — smooth, performant
+CMS (optional)
+Sanity.io or Contentful for easy content updates
+Forms
+Formspree or Netlify Forms — no backend needed
+Deployment
+Vercel (recommended for Next.js) or Netlify
+Analytics
+Google Analytics 4 or Plausible (privacy-first)
+No-Code Options (If Custom Build Not in Budget)
+Framer — design-first, great for animations, easy to maintain
+Webflow — more control, clean output, good CMS
+BUILD PRIORITY
+If budget or time is constrained, build in this order:
+Priority
+Page
+Reason
+Est. Complexity
+1
+Home
+First impression, sets the brand tone
+Medium
+2
+Services
+Core feature, educates and converts visitors
+Medium
+3
+Contact
+Required to generate leads immediately
+Low
+4
+Portfolio
+Builds trust and credibility
+Medium-High
+5
+Pricing
+Transparent pricing improves conversion
+Low-Medium
+6
+About
+Important but not urgent
+Low
+CONTENT CHECKLIST
+Client to provide the following assets before development begins:
+Asset
+Status / Notes
+Logo files (PNG, SVG, light + dark versions)
+Provided
+Brand color codes (HEX/RGB)
+See Brand Essentials section
+Hero section background image or art direction
+Pending
+About us text (final, approved version)
+Pending
+Team photos (if team section included)
+Pending
+Service descriptions (final copy)
+Pending
+Portfolio project images and case study text
+Pending
+Testimonials / client logos (if applicable)
+Pending
+Pricing details (final, confirmed)
+Pending
+Contact details (email, phone, WhatsApp number)
+Pending
+Social media links (LinkedIn, GitHub, Behance, etc.)
+Pending
+Domain name and hosting details
+Pending
+Any existing brand guidelines or assets
+Pending
+SUMMARY
+6 pages total
+Tech-forward, minimal design aesthetic
+Navy #1B2A6B + Cyan #00C8E0 brand palette
+Services page = core feature and primary conversion driver
+WhatsApp + contact form = dual inquiry channels
+Mobile-first, fully responsive
+No unnecessary complexity — clean, fast, purposeful
+Questions or clarifications? Discuss with the Nexitura team before starting build.
