@@ -10,10 +10,10 @@ import MagneticWrapper from "./MagneticWrapper";
 
 const NAV_LINKS = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "Services", href: "/services" },
-    { name: "Portfolio", href: "/portfolio" },
-    { name: "Pricing", href: "/pricing" },
+    { name: "Services", href: "#services" },
+    { name: "Portfolio", href: "#portfolio" },
+    { name: "About", href: "#about" },
+    { name: "Pricing", href: "#pricing" },
 ];
 
 export default function Navbar() {
@@ -40,7 +40,7 @@ export default function Navbar() {
                 : "bg-transparent py-1"
                 }`}
         >
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="w-full mx-auto px-6 sm:px-10 lg:px-16 xl:px-20">
                 <div className="flex justify-between items-center">
                     {/* Logo */}
                     <Link href="/" className="flex items-center group">
@@ -56,7 +56,7 @@ export default function Navbar() {
                     </Link>
 
                     {/* Desktop Navigation */}
-                    <nav className="hidden md:flex items-center space-x-2">
+                    <nav className="hidden lg:flex items-center space-x-2">
                         {NAV_LINKS.map((link) => {
                             const isActive = pathname === link.href || (link.href !== "/" && pathname?.startsWith(link.href));
                             return (
@@ -66,15 +66,15 @@ export default function Navbar() {
                                     className="relative px-2 py-2 text-sm font-semibold group"
                                 >
                                     <span className={`relative z-10 transition-colors duration-200 ${isActive
-                                        ? "text-[#00C8E0]"
-                                        : scrolled ? "text-[#1A1A2E] group-hover:text-[#00C8E0]" : "text-white/90 group-hover:text-white"
+                                        ? "text-[#00E5FF]"
+                                        : scrolled ? "text-[#1E2D6E] font-bold group-hover:text-[#00E5FF]" : "text-white/80 group-hover:text-[#00E5FF]"
                                         }`}>
                                         {link.name}
                                     </span>
                                     {isActive && (
                                         <motion.span
                                             layoutId="nav-underline"
-                                            className="absolute bottom-0 left-2 right-2 h-0.5 bg-[#00C8E0] rounded-full"
+                                            className="absolute bottom-0 left-2 right-2 h-0.5 bg-[#00E5FF] rounded-full"
                                             transition={{ type: "spring", stiffness: 380, damping: 30 }}
                                         />
                                     )}
@@ -82,10 +82,10 @@ export default function Navbar() {
                             );
                         })}
                         <MagneticWrapper>
-                            <Link
-                                href="/contact"
-                                className="ml-4 relative overflow-hidden bg-[#00C8E0] text-[#1E2D6E] px-6 py-2.5 rounded-lg font-bold text-sm shadow-md
-                                hover:shadow-[0_0_20px_rgba(0,200,224,0.5)] transition-all duration-300 hover:-translate-y-0.5 group block"
+                                <Link
+                                href="#contact"
+                                className="ml-4 relative overflow-hidden bg-[#00E5FF] text-[#070B19] px-6 py-2.5 rounded-lg font-bold text-sm shadow-[0_0_15px_rgba(0,229,255,0.3)]
+                                hover:shadow-[0_0_25px_rgba(0,229,255,0.6)] transition-all duration-300 hover:-translate-y-0.5 group block"
                             >
                                 <span className="relative z-10">Contact</span>
                                 <span className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
@@ -94,10 +94,10 @@ export default function Navbar() {
                     </nav>
 
                     {/* Mobile Menu Button */}
-                    <div className="md:hidden">
+                    <div className="lg:hidden">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
-                            className={`${scrolled ? "text-[#1A1A2E]" : "text-white/90"} hover:text-[#00C8E0] focus:outline-none transition-colors p-1`}
+                            className="text-white hover:text-[#00E5FF] focus:outline-none transition-colors p-1"
                             aria-label="Toggle menu"
                         >
                             <AnimatePresence mode="wait" initial={false}>
@@ -125,9 +125,9 @@ export default function Navbar() {
                         animate={{ opacity: 1, height: "auto" }}
                         exit={{ opacity: 0, height: 0 }}
                         transition={{ duration: 0.3, ease: "easeInOut" }}
-                        className="md:hidden overflow-hidden"
+                        className="lg:hidden overflow-hidden"
                     >
-                        <div className="glass-nav border-t border-[rgba(0,200,224,0.15)] px-4 pt-4 pb-6 space-y-1 flex flex-col">
+                        <div className="glass-nav border-t border-[rgba(0,229,255,0.15)] px-4 pt-4 pb-6 space-y-1 flex flex-col">
                             {NAV_LINKS.map((link, i) => {
                                 const isActive = pathname === link.href || (link.href !== "/" && pathname?.startsWith(link.href));
                                 return (
@@ -141,8 +141,8 @@ export default function Navbar() {
                                             href={link.href}
                                             onClick={() => setIsOpen(false)}
                                             className={`flex items-center px-4 py-3 rounded-xl text-base font-semibold transition-all ${isActive
-                                                ? "text-[#00C8E0] bg-[rgba(0,200,224,0.08)]"
-                                                : "text-[#1A1A2E] hover:bg-gray-50 hover:text-[#00C8E0]"
+                                                ? "text-[#00E5FF] bg-[rgba(0,229,255,0.08)]"
+                                                : "text-white/80 hover:bg-white/5 hover:text-[#00E5FF]"
                                                 }`}
                                         >
                                             {link.name}
@@ -152,9 +152,9 @@ export default function Navbar() {
                             })}
                             <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: NAV_LINKS.length * 0.05 }} className="pt-2">
                                 <Link
-                                    href="/contact"
+                                    href="#contact"
                                     onClick={() => setIsOpen(false)}
-                                    className="block text-center bg-[#00C8E0] text-[#1E2D6E] px-4 py-3 rounded-xl font-bold text-base shadow-md hover:shadow-[0_0_20px_rgba(0,200,224,0.4)] transition-all"
+                                    className="block text-center bg-[#00E5FF] text-[#070B19] px-4 py-3 rounded-xl font-bold text-base shadow-[0_0_15px_rgba(0,229,255,0.3)] hover:shadow-[0_0_25px_rgba(0,229,255,0.6)] transition-all"
                                 >
                                     Contact
                                 </Link>

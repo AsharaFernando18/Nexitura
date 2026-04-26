@@ -21,8 +21,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.variable} font-sans antialiased flex flex-col min-h-screen cursor-default md:cursor-none`}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${inter.variable} font-sans antialiased flex flex-col min-h-screen cursor-default md:cursor-none bg-[#070B19] text-[#B0B8C1]`} suppressHydrationWarning>
         <CustomCursor />
         <Navbar />
         <main className="flex-grow pb-12">
