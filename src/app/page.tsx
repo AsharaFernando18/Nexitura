@@ -149,8 +149,9 @@ export default function Home() {
       </section>
 
       {/* ── Quick Intro Strip ─────────────────────────────── */}
-      <section className="bg-[#070B19] py-12 lg:py-16 relative overflow-hidden" >
-        <div className="absolute inset-0 bg-noise opacity-[0.2]" />
+      <section className="bg-white py-12 lg:py-16 relative overflow-hidden" >
+        <div className="absolute inset-0 bg-gradient-to-b from-gray-100/80 via-gray-50/60 to-gray-100/80 backdrop-blur-3xl border-y border-gray-200/50" />
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-gray-100/30 to-transparent" />
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -158,11 +159,11 @@ export default function Home() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <p className="text-xl sm:text-2xl lg:text-3xl font-light text-[#B0B8C1] leading-relaxed">
+            <p className="text-xl sm:text-2xl lg:text-3xl font-light text-[#2A2A2A] leading-relaxed">
               "Nexitura is a global digital solutions studio helping companies grow through{" "}
-              <span className="text-white font-bold drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">smarter systems</span>,{" "}
-              <span className="text-white font-bold drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">sharper design</span>, and{" "}
-              <span className="text-[#00E5FF] font-bold drop-shadow-[0_0_15px_rgba(0,229,255,0.3)]">intelligent automation</span>."
+              <span className="text-[#1F1F1F] font-bold drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">smarter systems</span>,{" "}
+              <span className="text-[#1F1F1F] font-bold drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">sharper design</span>, and{" "}
+              <span className="text-[#0066FF] font-bold drop-shadow-[0_0_15px_rgba(0,102,255,0.3)]">intelligent automation</span>."
             </p>
           </motion.div>
         </div>
