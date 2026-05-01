@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Globe, Smartphone, Share2, PenTool, Cpu, Server, Check } from "lucide-react";
 import { motion } from "framer-motion";
-import Marquee from "@/components/Marquee";
 
 type DetailedServiceItem = { title: string; bgImage?: string; icon?: any; description: string; deliverables: string[]; color: string; iconColor: string; };
 
@@ -27,14 +26,6 @@ const PROCESS = [
 export default function ServicesSection() {
     return (
         <div id="services" className="flex flex-col w-full bg-[#070B19]">
-            {/* ── Infinite Marquee ─────────────────────────────── */}
-            <section className="bg-[#0D1530] border-y border-white/5 py-6 overflow-hidden mt-10 lg:mt-24">
-                <Marquee
-                    items={["Strategy", "Design", "Development", "Automation", "Marketing", "Optimization", "Scale"]}
-                    speed={35}
-                />
-            </section>
-
             {/* ── Service Cards ──────────────────────────────── */}
             <section className="py-28 bg-[#070B19] relative overflow-hidden">
                 {/* Video Background Layer */}
@@ -61,13 +52,13 @@ export default function ServicesSection() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ delay: i * 0.08, duration: 0.5 }}
-                                className="hovercraft-card p-8 flex flex-col relative overflow-hidden group"
+                                className="hovercraft-card service-card p-8 flex flex-col relative overflow-hidden group"
                             >
-                                <div className={`absolute inset-0 bg-gradient-to-br ${service.color} opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-2xl z-0`} />
+                                <div className={`absolute inset-0 bg-gradient-to-br ${service.color} opacity-30 group-hover:opacity-50 transition-opacity duration-500 rounded-2xl z-0`} />
                                 {service.bgImage && (
-                                    <div className="absolute inset-0 z-0 mix-blend-screen opacity-10 group-hover:opacity-30 transition-opacity duration-500">
+                                    <div className="absolute inset-0 z-0 mix-blend-screen opacity-25 group-hover:opacity-50 transition-opacity duration-500">
                                         <Image src={service.bgImage} alt={service.title} fill className="object-cover" />
-                                        <div className="absolute inset-0 bg-gradient-to-t from-[#070B19] via-[#070B19]/50 to-transparent" />
+                                        <div className="absolute inset-0 bg-gradient-to-t from-[#070B19] via-[#070B19]/40 to-transparent" />
                                     </div>
                                 )}
                                 <div className="relative z-10 flex flex-col h-full">
